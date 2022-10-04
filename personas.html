@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--used this https://www.youtube.com/watch?v=tmWvwp3rpso&ab_channel=TheWebShala-->
+<!--and this: https://drive.google.com/file/d/1mPE23pw4wKG6thq2tuggKRS-eDbE6oIH/view as inspiration for the image layout-->
+<!--and jeff's tutorial-->
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+	<title>Title</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles3.css">
+	<title>SleepCoacher - Brown U HCI Group</title>
+	<style>
+        h1 {
+            text-align: center;
+        }
+        body {
+            font-family: "Helvetica Neue";
+        }
+        li {
+            list-style: number;
+        }
+		ul ul li {
+            list-style: square;
+		}
+
+        img {
+            max-width: 100%;
+            margin: 20px;
+        }
+        .gallery {
+            background-color: #deafa7;
+            padding: 50px;
+            text-align: left;
+        }
+
+        .gallery-item {
+            margin-left: 0px;
+        }
+
+        .gallery img{
+            width: 100%;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+	</style>
+</head>
+<body>
+<div class="gallery min-vh-100">
+	<div class="container-lg">
+		<div class="row" style="padding-left: 0px; font-size: 40px; color: darkred; padding-bottom: 20px">
+			<p>Personas and Storyboarding, <b>CVS Self-Checkout</b></p>
+		</div>
+		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 h-100">
+			<div class="col my-auto">
+				<p style="font-size: 20px">The interface of the CVS self-checkout is trying to solve the problem of having everyone go to the cashier. By providing another
+					checkout option, it reduces congestion. Its key components include instructions to start scanning, the option to put your phone number in to check for extracare coupons, and the ability to choose
+					a preferred payment option. When clicking on the phone number option a keypad pops up. When pressing a preferred payment option, further instructions appear to conduct the payment.
+					Moreover, there is the option to change to Spanish when clicking on the "Español" option. </p>
+			</div>
+			<div class="col">
+				<h1 style="font-size: 20px; color: darkred">Interface Sketch and Annotations</h1>
+				<img class="gallery-item" src="cvs.png">
+			</div>
+		</div>
+		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 h-100">
+			<div class="col">
+				<h1 style="font-size: 20px; color: darkred">Persona 1</h1>
+				<img class="gallery-item"  src="persona1.png">
+			</div>
+			<div class="col">
+				<h1 style="font-size: 20px; color: darkred">Persona 2</h1>
+				<img class="gallery-item" src="persona2.png">
+			</div>
+		</div>
+		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 h-100">
+			<div class="col">
+				<div class="caption">
+					<p>
+						I observed that most users didn't have trouble navigating the UI. It appeared that some people were spending a noticeable amount of time
+						on the phone number input for coupons. Every user I observed appeared to be relatively content and not too rushed. Users seemed
+						to know exactly how to start the process by scanning, and all seemed comfortable with the payment options.
+					</p>
+					<ul style="padding-left: 0">
+						<li>Did the UI clearly convey the different types of payment methods?</li>
+						<ul>
+							<li>Most of the people I observed seemed to pay with card, and those I talked to
+							were not confused about how to do this. However, a particular individual was confused about
+							whether or not Apple Pay was supported.</li>
+						</ul>
+						<li>Was initiating the scanning process clear to you? </li>
+						<ul>
+							<li>Aligning with my observations, most people described that the directions on the
+							screen made it straightforward to start the process by scanning the items below the screen.</li>
+						</ul>
+						<li>Was the option to use coupons clear to you?</li>
+						<ul>
+							<li> Most people that I asked were well versed with how the extra-care card coupon works,
+							and knew to put in their phone number to see if they had any funds. There was an individual who did not
+							know about this but was not interested. </li>
+						</ul>
+						<li>Was it clear on how to revert/undo scans? </li>
+						<ul>
+							<li> None of the people that I interviewed needed to undo any of the scans as
+							they wanted to purchase all the products they carried. It was mentioned that they would use the "Request Help" option if needed
+							</li>
+						</ul>
+						<li>
+							In terms of language options, were the different options easy to navigate?
+							<ul>
+								<li> All of those that I interviewed had English as their primary language,
+								so there wasn't a need for them to look at different options. However, some noted that
+								they saw the "Español" option. </li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div class="caption">
+					<h1 style="font-size: 40px; color: darkred">Storyboard</h1>
+				</div>
+				<img class="gallery-item img-fluid w-100"  src="storyboard.png" style="width: 500px">
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
